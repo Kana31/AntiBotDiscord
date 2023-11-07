@@ -195,7 +195,7 @@ async def on_command_error(ctx, error):
         await ctx.send(f"Ocorreu um erro ao executar o comando: {error}")
 
 # Substitua o token por uma variável de ambiente
-TOKENBOT = 'MTE2Nzk3NDcwODM3ODA5NTcyNg.GiyLKG.PvQdIW8vm_7fhknBoDrsCyUh6jyCFHiUn-ptkI'
+TOKENBOT = 'Token'
 if TOKENBOT:
     bot.run(TOKENBOT)
 else:
